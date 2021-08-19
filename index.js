@@ -13,7 +13,7 @@ let myServer = myhttp.createServer(
       myText = "I don't know you!";
     }
 
-    myText = myText + " - Please help me...  I am traped in a Node.js server!";
+    myText = myText + "\n" + " - Please help me...  I am traped in a Node.js server!";
 
     // writeHead() creates an http response header, including the status code (200 OK), the content type
     myResponse.writeHead( 200, { "Content-Type": "text/plain" } );
